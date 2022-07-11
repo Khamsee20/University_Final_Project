@@ -1,0 +1,154 @@
+*{
+    font-family: Noto Sans Lao;
+}
+*input {
+    font-family: Noto Sans Lao;
+}
+
+.product-imgs{
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+}
+.img-display{
+
+    overflow: hidden;
+}
+.img-showcase{
+    border-radius: 10px;
+
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.img-select{
+    display: flex;
+    width: auto;
+    
+}
+.img-item{
+    margin: 0.3rem;
+    border-radius: 10px;
+   
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 5;
+}
+.product-content{
+    padding: 2rem 1rem;
+    border: solid green 1px;
+    border-width: 2px;
+    border-radius: 1rem;
+}
+.product-title{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+}
+
+.product-title a{
+    float: inline-end;
+}
+.product-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: #12263a;
+}
+.product-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: orange;
+    padding: 0 0.3rem;
+    transition: all 0.5s ease;
+    
+}
+.product-link:hover{
+    opacity: 0.9;
+}
+.product-rating{
+    color: #ffc107;
+}
+.product-rating span{
+    font-weight: 600;
+    color: #252525;
+}
+.product-price{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    color: rgb(34, 34, 34);
+}
+.product-price span{
+    font-weight: 400;
+}
+.last-price span{
+    color: #f64749;
+    text-decoration: line-through;
+}
+
+.new-price span{
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+}
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+.product-detail ul{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+.product-detail ul li{
+    margin: 0;
+    list-style: none;
+    background: url(shoes_images/checked.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 1.7rem;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.product-detail ul li span{
+    font-weight: 400;
+}
+.new-price{
+    margin: 4px;
+}
+.contact_icon{
+    width: 230px;
+    height: 200px;
+    margin: 15px;
+}
+.ccc{
+    width: 100%;
+    font-size: 60px;
+    
+}
+.ccc p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
